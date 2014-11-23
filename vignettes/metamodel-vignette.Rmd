@@ -1,0 +1,12 @@
+---
+title: "Introduction to the metamodel package"
+author: "Mark Moloney"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to the metamodel package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\usepackage[utf8]{inputenc}
+---
+
+The Metamodel package exports metadata from a predictive model to the InfoSphere Information Governance Catalog as Predictive Markup Language (PMML).

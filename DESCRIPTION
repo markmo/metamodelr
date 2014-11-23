@@ -1,0 +1,21 @@
+Package: metamodel
+Type: Package
+Title: Import model metadata into the InfoSphere Information Governance Catalog via PMML
+Version: 1.0
+Date: 2014-11-20
+Author: person("Mark", "Moloney", email="markmo@metamorphichq.com", role=c("aut", "cre"))
+Maintainer: Mark Moloney <markmo@metamorphichq.com>
+Description: Generates Predictive Markup Language (PMML) from a predictive R model, and
+  sends to the Metamodel Bridge (Web Service) to import into the InfoSphere Information
+  Governance Catalog.
+License: GPL-2
+Depends:
+  R (>= 3.0.0)
+Imports:
+  pmml (>= 1.4.2),
+  XML (>= 3.98-1.1),
+  RCurl (>= 1.95-4.3)
+Suggests:
+  testthat,
+  knitr
+VignetteBuilder: knitr
